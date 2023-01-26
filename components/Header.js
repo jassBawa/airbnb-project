@@ -15,6 +15,7 @@ function Header() {
         <Image
           src="https://links.papareact.com/qd3"
           fill
+          alt="airbnb-logo"
           style={{ objectFit: "contain", objectPosition: "left" }}
         />
       </div>

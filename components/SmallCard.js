@@ -6,7 +6,7 @@ function SmallCard({ image, distance, location }) {
     <div className="flex items-center m-2 mt-5 space-x-4 cursor-pointer hover:bg-gray-100 rounded-xl hover:scale-105 transition transform duration-200 ease-out">
       {/* left */}
       <div className="relative h-16 w-16">
-        <Image src={image} fill className="rounded-lg" />
+        <Image src={image} alt={location} fill className="rounded-lg" />
       </div>
 
       {/* Right */}
